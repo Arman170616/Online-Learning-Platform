@@ -9,7 +9,7 @@ This Django application provides backend services for an online learning platfor
 ### Prerequisites
 
 - Python 3.x
-- Docker (optional, for running with PostgreSQL)
+
 
 ### Setup
 
@@ -51,21 +51,8 @@ This Django application provides backend services for an online learning platfor
 
     The application will be accessible at `http://localhost:8000/`.
 
-### Running with Docker
 
-To run the application with Docker and PostgreSQL, follow these steps:
 
-1. Navigate to the project directory:
-
-    ```bash
-    cd online_learning_platform
-    ```
-
-2. Start the Docker containers:
-
-    ```bash
-    docker-compose up --build
-    ```
 
 3. The application will be accessible at `http://localhost:8000/`.
 
@@ -108,11 +95,7 @@ curl -X POST -H "Content-Type: application/json" -d '{"title": "Data Science Fun
 - Django 5.0.3
 - Django Rest Framework 3.13.0
 
-## Environment Variables
 
-- `POSTGRES_DB`: Name of the PostgreSQL database (optional, when using Docker)
-- `POSTGRES_USER`: PostgreSQL username (optional, when using Docker)
-- `POSTGRES_PASSWORD`: PostgreSQL password (optional, when using Docker)
 
 Adjust the values according to your specific requirements and configurations.
 
